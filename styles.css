@@ -1,0 +1,85 @@
+:root{
+    --primary: #EA40A4;
+    --businees: #3A52EE;
+    --perasonal: var(--primary);
+    --light: #EEE;
+    --gray: #888;
+    --dark: #313154;
+    --ganger: #ff0000;
+    --shadow: 0  1px 3px #rgba(0,0,0,0,2);
+    --personal-glow: 0px 0px 4px rgba(58,130,238,0.75);
+    --personal-glow: 0px 0px 4px rgba(234,64,164,0.75);
+
+
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'montserrat',sans-sarif;
+
+}
+input:not([type="radio"]):not([type="checkbox"]),button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none; 
+    cursor: initial;
+}
+body{
+    background: var(--light);
+    color: var(--dark);
+}
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+h3{
+    color: var(--dark);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+h4{
+    color: var(--gray);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.greatest .title{
+    display: flex;
+}
+.greeting .title input{
+    margin-left: 0.5rem;
+    flex: 1 1 0%;
+    min-width: 0;
+}
+.greeting .title,
+.greeting .title input{
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.create-todo input[type="text"]{
+    display: block;
+    width: 100%;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    color: var(--dark);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-sizing: var(--shadow);
+    margin-bottom: 1.5rem;
+
+
+
+}
+.create-todo .option{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
